@@ -1,4 +1,3 @@
-// Write your code here
 let products = ["Laptop", "Phone", "Headphones", "Monitor"];
 
 function logFirstProduct() {
@@ -24,7 +23,6 @@ function removeLastProduct() {
   products.pop();
   console.log(products);
 }
-
 
 // Export the necessary parts for testing
 module.exports = {
